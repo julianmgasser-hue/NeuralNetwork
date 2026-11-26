@@ -1,6 +1,6 @@
 package ch.noseryoung
 
-import ch.noseryoung.ActivationFunctions.ActivationFunction
+import ch.noseryoung.activationFunctions.ActivationFunction
 
 class Neuron(val activationFunction: ActivationFunction){
     private var bias = 0.0
